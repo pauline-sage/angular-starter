@@ -1,0 +1,13 @@
+.mat-mdc-list-item {
+    border-radius: var(--radius-md);
+
+    transition: background-color .2s ease;
+    gap: 10px;
+
+    display: flex !important;
+    align-items: center !important;
+}
+
+.mat-mdc-list-item:hover {
+    background: rgba(255, 255, 255, .05);
+}
